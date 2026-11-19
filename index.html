@@ -3,32 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fieldwork Studio | Small Business Web Design</title>
-<meta name="description" content="A fictional web design studio demo for small businesses.">
+<title>The Velvet Room | Fictional Strip Club</title>
+<meta name="description" content="The Velvet Room is a fictional 21+ strip club website demo.">
 <style>
-:root{color-scheme:light;--ink:#17281e;--light:#f6f5ed;--lime:#d6ee94;--line:#d2d8cb}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--light);color:var(--ink);font:17px/1.55 system-ui,sans-serif}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #507c2e;outline-offset:5px}.wrap{width:min(1130px,calc(100% - 40px));margin:auto}header .wrap,footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 0;flex-wrap:wrap}.brand{font-weight:850;letter-spacing:-.04em;text-decoration:none;font-size:1.3rem}nav{display:flex;gap:24px;flex-wrap:wrap}nav a{text-decoration:none;font-size:.92rem}nav a:hover{text-decoration:underline}.hero{background:var(--ink);color:var(--light);padding:clamp(65px,11vw,130px) 0}.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}.label{font:750 .75rem/1.5 system-ui;letter-spacing:.16em;text-transform:uppercase}.hero .label{color:var(--lime)}h1,h2,h3,p{margin:0 0 18px}h1,h2{font-family:Georgia,serif;font-weight:400;letter-spacing:-.055em;line-height:.98}h1{font-size:clamp(3.15rem,7vw,6.4rem)}h2{font-size:clamp(2.5rem,5vw,4.4rem)}.hero p:not(.label){max-width:43ch;color:#e0e7dc}.button{display:inline-block;padding:12px 19px;background:var(--lime);color:var(--ink);border-radius:5px;font-weight:750;text-decoration:none}.button:hover{background:#e5f8bc}.preview{background:#e0e7d2;color:#202d1c;border-radius:12px;overflow:hidden;box-shadow:0 18px 45px #101c14}.frame{padding:13px 18px;background:#f8f9ef;font-size:.76rem;font-weight:700}.sample{min-height:290px;padding:38px 24px;display:flex;justify-content:center;flex-direction:column;align-items:center;text-align:center;background:repeating-radial-gradient(ellipse at 50% 145%,transparent 0 23px,#b6c5a7 24px 25px,transparent 26px 46px)}.sample strong{font:italic 3rem/.98 Georgia,serif;letter-spacing:-.05em}.sample small{margin-top:12px}.section{padding:clamp(52px,8vw,96px) 0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.card{border:1px solid var(--line);border-radius:9px;padding:24px}.card p{margin:0}.tint{background:#e5ebd9}details{border-bottom:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font-weight:760}details p{margin:10px 0 0;max-width:65ch}footer{border-top:1px solid var(--line)}footer small{color:#435445}@media(max-width:700px){.hero .wrap,.cards{grid-template-columns:1fr}.sample{min-height:210px}nav{gap:15px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+:root{color-scheme:dark;--bg:#140b13;--ink:#fff0e9;--muted:#d7b8c9;--accent:#ffa8cb;--gold:#f2cd9a;--line:#684058}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,sans-serif}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:5px}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}header .wrap,footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:22px 0}.brand{font:700 1.25rem Georgia,serif;text-decoration:none}nav{display:flex;gap:clamp(12px,3vw,32px);flex-wrap:wrap}nav a{text-underline-offset:4px}.hero{text-align:center;padding:clamp(76px,14vw,164px) 0;background:repeating-linear-gradient(90deg,#0e060e55 0%,transparent 7%,#0e060e55 14%),radial-gradient(ellipse at 50% 15%,#823751 0%,#36142f 54%,var(--bg) 90%);border-block:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:400;line-height:1.05}h1{font-size:clamp(4rem,12vw,10rem);letter-spacing:-.075em;margin:12px auto 22px}h2{font-size:clamp(2.5rem,6vw,5rem);letter-spacing:-.055em;margin:0 0 24px}h3{font-size:1.55rem;margin:0 0 10px}.label{color:var(--gold);font-size:.78rem;font-weight:750;text-transform:uppercase;letter-spacing:.14em}p{margin:0 0 18px}p,small{color:var(--muted)}.button{display:inline-block;background:var(--accent);color:#260b1d;padding:12px 23px;text-decoration:none;border-radius:4px;font-weight:750}.button:hover{background:#ffd0e2}.section{padding:clamp(48px,8vw,95px) 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{padding:23px;border:1px solid var(--line);background:#22121f}.card p:last-child,details p:last-child{margin-bottom:0}.visit{background:#231121;border-block:1px solid var(--line)}details{border-bottom:1px solid var(--line);padding:15px 0}summary{cursor:pointer;font-weight:700}details p{margin-top:10px}footer{border-top:1px solid var(--line)}@media(max-width:700px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header id="top"><div class="wrap"><a class="brand" href="#top">Fieldwork Studio</a><nav aria-label="Main navigation"><a href="#services">Services</a><a href="#example">Example site</a><a href="#faq">FAQ</a></nav></div></header>
+<header id="top"><div class="wrap"><a class="brand" href="#top">The Velvet Room</a><nav aria-label="Main navigation"><a href="#shows">Shows</a><a href="#visit">Plan a visit</a><a href="#faq">FAQ</a></nav></div></header>
 <main>
 <section class="hero" aria-labelledby="headline"><div class="wrap">
-<div><p class="label">Web design for small businesses</p><h1 id="headline">A website that works as hard as you do.</h1><p>Give customers one place to see what you do, find your hours, and get in touch.</p><a class="button" href="#services">Explore services</a></div>
-<div class="preview" role="img" aria-label="Mock homepage for Bluegrass Lawn Co."><div class="frame">Bluegrass Lawn Co. &nbsp; / &nbsp; Homepage</div><div class="sample"><strong>Good days<br>start outside.</strong><small>Lawn care · Lexington, KY</small></div></div>
+<p class="label">Fictional strip club · 21+</p>
+<h1 id="headline">The Velvet Room</h1>
+<p>Late-night stage shows, guest DJs, and booth seating.</p>
+<a class="button" href="#shows">See the lineup</a>
 </div></section>
-<section id="services" class="section"><div class="wrap"><h2>Build, launch, maintain.</h2><div class="cards">
-<article class="card"><h3>Website design</h3><p>A mobile-friendly site built around your services and the questions customers ask most.</p></article>
-<article class="card"><h3>Launch setup</h3><p>Connect your domain, check links and forms, and hand over access to your site.</p></article>
-<article class="card"><h3>Ongoing updates</h3><p>Keep hours, photos, and seasonal services up to date as your business changes.</p></article>
-</div></div></section>
-<section id="example" class="section tint"><div class="wrap"><p class="label">Sample project</p><h2>Bluegrass Lawn Co.</h2><p>A fictional Lexington lawn care business. The mock homepage gives visitors a quick way to see its service area and understand what it offers.</p></div></section>
-<section id="faq" class="section"><div class="wrap"><h2>Common questions</h2>
-<details><summary>Who owns the finished website?</summary><p>The client owns the finished site and receives access to the domain, hosting account, and project files at handoff.</p></details>
-<details><summary>What do I need to get started?</summary><p>Bring your business name, service list, hours, and any photos or logos you’d like to use.</p></details>
-<details><summary>Can I change the site after launch?</summary><p>Yes. You can make updates yourself or arrange ongoing maintenance.</p></details>
+<section class="section" id="shows"><div class="wrap">
+<h2>Weekend lineup</h2>
+<div class="grid">
+<article class="card"><p class="label">Thursday · 9 PM</p><h3>Velvet Thursdays</h3><p>Rotating dance sets on the main stage.</p></article>
+<article class="card"><p class="label">Friday · 10 PM</p><h3>Neon Nights</h3><p>Guest DJs and performances throughout the night.</p></article>
+<article class="card"><p class="label">Saturday · 10 PM</p><h3>Midnight Revue</h3><p>A late-night showcase with a featured headliner.</p></article>
+</div>
+</div></section>
+<section class="section visit" id="visit"><div class="wrap">
+<h2>Plan a visit</h2>
+<p>Sample hours are Thursday through Saturday, 8 PM to 2 AM. Guests must be 21 or older and bring a valid photo ID.</p>
+<p>The Velvet Room is a fictional venue. The lineup and hours are for demonstration only.</p>
+</div></section>
+<section class="section" id="faq"><div class="wrap">
+<h2>House rules</h2>
+<details><summary>Can I take photos or videos?</summary><p>Photography and filming are prohibited in the showroom.</p></details>
+<details><summary>How should guests interact with performers?</summary><p>Respect performers’ boundaries, keep the stage clear, and follow staff directions.</p></details>
+<details><summary>Can I reserve a booth?</summary><p>This demo does not accept reservations.</p></details>
 </div></section>
 </main>
-<footer><div class="wrap"><small>Fieldwork Studio · Fictional website demo</small><a href="#top">Back to top ↑</a></div></footer>
+<footer><div class="wrap"><small>The Velvet Room · Fictional website demo</small><a href="#top">Back to top ↑</a></div></footer>
 </body>
 </html>
